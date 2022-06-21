@@ -11,7 +11,7 @@ const Formulario = ({ pacientes, setPacientes, paciente }) => {
     const [error, setError] = useState(false)
 
     useEffect(() => {
-        if( Object.keys(paciente).lenght > 0 ) {
+        if( Object.keys(paciente).length > 0 ) {
             setNombre(paciente.nombre)
             setPropietario(paciente.propietario)
             setEmail(paciente.email)
