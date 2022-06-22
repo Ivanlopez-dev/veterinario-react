@@ -39,7 +39,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
         setError(false)
 
-        // Objeto de Paciente
+            // Objeto de Paciente
         const objetoPaciente = {
             nombre, 
             propietario, 
